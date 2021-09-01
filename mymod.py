@@ -7,6 +7,8 @@ y = [10, 20, 30]
 
 
 def hello(name):
+    'This is bad documentation.'
+
     return f'Hello, {name}!'
 
 
