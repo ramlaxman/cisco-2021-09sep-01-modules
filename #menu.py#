@@ -1,0 +1,5 @@
+def menu(*args):   # this is pronounced "splat-args" in the Python world --
+    # it means all positional arguments are assigned to the tuple args
+    print(f'Choose one of these: {args}')
+
+    s = input('Enter
