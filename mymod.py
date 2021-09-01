@@ -9,7 +9,14 @@ y = [10, 20, 30]
 def hello(name):
     '''This is the best function ever written.
 
-So great, it gets a two-line docstring.'''
+So great, it gets a two-line docstring.
+
+You normally want your function docstring to say:
+- Expects:
+- Modifies:
+- Returns:
+
+'''
 
     return f'Hello, {name}!'
 
