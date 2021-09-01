@@ -1,3 +1,12 @@
+'''Great module for teaching.
+
+This module has everything you would ever want!
+
+- Data
+- Functions
+- Bad documentation
+'''
+
 if __name__ == '__main__':
     print(f'Hello from {__name__}!')
 
