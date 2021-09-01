@@ -7,7 +7,9 @@ y = [10, 20, 30]
 
 
 def hello(name):
-    'This is bad documentation.'
+    '''This is the best function ever written.
+
+So great, it gets a two-line docstring.'''
 
     return f'Hello, {name}!'
 
