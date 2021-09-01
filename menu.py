@@ -5,7 +5,8 @@ def menu(*args):   # this is pronounced "splat-args" in the Python world --
 
         print(f'Choose one of these: {args}')
 
-        s = input('Enter your choice: ')
+        # get the user's input, and remove whitespace from the sides
+        s = input('Enter your choice: ').strip()
 
         if s in args:
             return s
